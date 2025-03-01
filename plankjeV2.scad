@@ -1,13 +1,13 @@
 $fn = 100;
 
-translate([-25, -78, 5]) {
+translate([-35, -78, 5]) {
     mirror([1,0,0]) {
-        support_bar(75, 20, 15);
+        support_bar(60, 20, 15);
     }
 }
 
-translate([25, -78, 5]) {
-    support_bar(75, 20, 15);
+translate([35, -78, 5]) {
+    support_bar(60, 20, 15);
 }
 
 translate([-95, -85, 0]) {
